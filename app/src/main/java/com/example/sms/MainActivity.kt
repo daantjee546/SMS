@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             val phoneNumberString = phoneNumber.text.toString()
             val message = findViewById<TextView>(R.id.messageID)
             val messageString = message.text.toString()
-    
+
             val smsManager = SmsManager.getDefault()
             smsManager.sendTextMessage(phoneNumberString, null, messageString, null, null)
 
