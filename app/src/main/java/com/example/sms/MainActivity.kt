@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity() {
 
             val myToast = Toast.makeText(this, "SMS send", Toast.LENGTH_SHORT)
             myToast.show()
+            
 
         }
 
